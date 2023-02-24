@@ -1,55 +1,64 @@
 # Exercice d'accessibilité des contenus
 
 ## Équipe
-- Prénom nom
-- Prénom nom
+- Lorie-Anne Côté
+- Kate Undercoffler
 
 ## Objectifs
-- Expérimenter le versionnage de fichiers avec GIT
-- Acquérire des compétences en accessibilité des contenus
+- Expérimenter le versionnage de fichiers avec GIT 
+- Acquérire des compétences en accessibilité des contenus 
 
 ## Prérequis
-- Avoir lu et pris connaissance des notes du cours 10
-- Avoir un compte GitHub
-- Avoir installé et configurer GIT sur votre ordinateur
-- Avoir installé l'outil CCA (colour-contrast-analyzer)
+- Avoir lu et pris connaissance des notes du cours 10 
+- Avoir un compte GitHub 
+- Avoir installé et configurer GIT sur votre ordinateur 
+- Avoir installé l'outil CCA (colour-contrast-analyzer) 
 
 ## Instructions
 
 ### 0. 
-- Initialiser un dépôt GIT dans le dossier du projet
-- Créer un fichier `index.html` et un fichier `style.css`
+- [x] Initialiser un dépôt GIT dans le dossier du projet
+- [x] Créer un fichier `index.html` et un fichier `style.css`
 
 ### 1.	Donner une alternative textuelle aux images
 
 #### 1.1 Baliser dans le fichier `index.html` les images du dossier `1-textes-alternatifs` 
 
-Pour vous guider dans le choix des balises, des attributs et des valeurs d'attributs, utiliser l'arbre de décision et référez-vous aux notes de cours.
+- [x] Pour vous guider dans le choix des balises, des attributs et des valeurs d'attributs, utiliser l'arbre de décision et référez-vous aux notes de cours.
 
 #### 1.2 Évaluer la pertinence des contenus textuels alternatifs
 
-Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Commenter votre observation. Pourrait-on faire mieux ? Donnez un exemple de ce que vous proposeriez.
+- [x] Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Commenter votre observation. Pourrait-on faire mieux ? Donnez un exemple de ce que vous proposeriez.
+
+---
 
 - https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air 
------
------
------
-[capture-écran]()
+
+Le texte alternatif est bien dans l'ensemble. On a accès à la marque de la chaussure, sa taille (tout-petit) et le type de chaussure, mais il manque la couleur.
+
+![Sail](./images/mesImages/cotel_1.png)
+
+---
 - https://amzn.to/2NnbKPN 
------
------
------
-[capture-écran]()
+
+Le texte alternatif est assez lourd et il manque, encore une fois, la couleur de l'article. Les éléments important sont là.
+
+![Amazon](./images/mesImages/cotel_2.png)
+
+---
 - https://www.lesoleil.com/  
------
------
------
-[capture-écran]()
+
+Les textes atl répètent simplement le titre des articles, ils ne décrivent pas l'image en soi. Il faudrait qu'il décrive l'image, par exemple: 
+> <img src="" alt="Une voiture de police est stationner devant l'école ou s'est passé le drame">
+
+![LeSoleil](./images/mesImages/cotel_3.png)
+
+---
 - https://www.rad.ca/  
------
------
------
-[capture-écran]()
+
+La plupart des images ne contiennent pas de texte alternatif, ce sont des images utilisées sur la feuille de style CSS avec "background-image". Il serait peut-être mieux d'ajouter des images sur le html au lieu du CSS avec les balises **img** et **alt** dans une balise d'hyperlien pour une meilleure accessibilité.
+
+![RAD](./images/mesImages/cotel_4.png)
 
 Astuce  
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
