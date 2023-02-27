@@ -49,7 +49,7 @@ Le texte alternatif est assez lourd et il manque, encore une fois, la couleur de
 - https://www.lesoleil.com/  
 
 Les textes atl répètent simplement le titre des articles, ils ne décrivent pas l'image en soi. Il faudrait qu'il décrive l'image, par exemple: 
-> <img src="" alt="Une voiture de police est stationner devant l'école ou s'est passé le drame">
+> alt="Une voiture de police est stationner devant l'école ou s'est passé le drame"
 
 ![LeSoleil](./images/mesImages/cotel_3.png)
 
@@ -72,9 +72,17 @@ Pour chaque problème de contraste identifié,
 documenter le problème par une capture-écran incluant dans son cadre, la zone fautive à gauche et à droite, les résultats détaillés de l’outil, tel que démontré dans l’exemple ci-dessous.
 
 Sauvegarder les captures dans le dossier images. Compléter les liens ci-dessous:
-- [Contraste insuffisant 1](images/...)
-- [Contraste insuffisant 2](images/...)
-- [Contraste insuffisant 3](images/...)
+
+![Constraste Bouton](./images/mesImages/cotel_5.png)
+
+---
+
+![Constrate Menu](./images/mesImages/cotel_6.png)
+
+---
+
+![Constrate Texte](./images/mesImages/cotel_7.png)
+
 
 ### 3. Structurer avec les h1-h6 une table des matières
 
@@ -85,25 +93,24 @@ D’après les captures-écrans que vous trouverez dans le dossier [images/3-tab
 Sinon, expliquez le problème en vous basant sur les règles de base énoncées dans les notes de cours. 
 
 __Tutoriel sur les formulaires du w3c__  
+
 [Article](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c.pdf)  
 
-[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c-outline.png) 
+![Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c-outline.png) 
 
 Réponse : 
 
-----
-----
-----
+La table des matières du document est très bien construite. On voit bien le titre principal **(h1)** de la page "Forms Tutorial" ainsi que ses sous-titres **(h2)**.
 
 __L’affaire Savtchenko__ 
+
 [Article](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko.pdf)  
-[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko-outline.png) 
+
+![Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko-outline.png) 
   
 Réponse : 
 
-----
-----
-----
+L'utilisation des titres et des sous-titres est mauvaise. Plusieurs éléments sont mis en h2 alors que ce ne devrait pas être le cas. La navigation principale, le formulaire de recherche et les médias ne devraient pas être mis dans des balises titre et/ou sous-titre, ils devraient même avoir leur propre balise (nav, ul/li, small, div). Bref, ce ne sont pas des éléments titres. Cependant, je crois que le H1 est correctement utilisé, contrairement aux h2.
 
 
 #### 3.2 S'exercer à bien structurer
@@ -112,7 +119,8 @@ Réponse :
 - Ajouter un calque de blanc à 50% de transparence
 - Dans un 3e calque, par-dessus, identifiez les titres et leurs niveaux (h1-h6) de manière voyante (couleur rouge et font-size suffisant)
 - Sauvegarder au format .psd ou .png dans le même dossier.
-- [Relier ce fichier-réponse ici]()
+
+![h1-h6](./images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur.jpg)
 
 ### 4. Baliser un tableau de données pour qu’il soit accessible
 
