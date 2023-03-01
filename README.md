@@ -34,7 +34,7 @@
 
 - https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air 
 
-Le texte alternatif est bien dans l'ensemble. On a accès à la marque de la chaussure, sa taille (tout-petit) et le type de chaussure, mais il manque la couleur.
+Le texte alternatif est bien dans l'ensemble. On a accès à la marque de la chaussure, sa taille (tout-petit) et le type de chaussure, mais il manque la couleur. Atl utilisé parce que l'image est placé dans un hyperlien, on veut être sûr que l'image est associé au produit.
 
 ![Sail](./images/mesImages/cotel_1.png)
 
@@ -59,6 +59,8 @@ Les textes atl répètent simplement le titre des articles, ils ne décrivent pa
 La plupart des images ne contiennent pas de texte alternatif, ce sont des images utilisées sur la feuille de style CSS avec "background-image". Il serait peut-être mieux d'ajouter des images sur le html au lieu du CSS avec les balises **img** et **alt** dans une balise d'hyperlien pour une meilleure accessibilité.
 
 ![RAD](./images/mesImages/cotel_4.png)
+
+---
 
 Astuce  
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
@@ -121,6 +123,8 @@ L'utilisation des titres et des sous-titres est mauvaise. Plusieurs éléments s
 - Sauvegarder au format .psd ou .png dans le même dossier.
 
 ![h1-h6](./images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur.jpg)
+
+Facultatif: h4 (les sous-titres/liens), sous les h3, qui sont en bleu.
 
 ### 4. Baliser un tableau de données pour qu’il soit accessible
 
